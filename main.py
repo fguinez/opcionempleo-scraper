@@ -129,8 +129,7 @@ class Scraper:
         logging.info("Press CTRL+C to stop")
         while True:
             logging.info("Looking page %i...", page)
-            queries = self.get_queries(1)
-            
+            queries = self.get_queries(page)
             for query, path in queries:
                 # Check if the query has been made
                 if query not in self.made_queries:
