@@ -21,3 +21,15 @@ If you don't want to do comma removal, you can use the `--preserve-commas` param
 ```
 python main.py --preserve-commas
 ```
+
+## Results
+
+The results are saved to `results.csv` with a format like this:
+
+```
+queryA,titleA1
+queryA,titleA2
+...
+queryB,titleB1
+queryB,titleB2
+```
